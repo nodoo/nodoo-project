@@ -16,9 +16,9 @@
         'web',
     ],
     'data': [
-        #'views/assets_backend.xml',
+        'views/project_index.xml',
     ],
     'qweb': [
-        #'static/src/xml/project.xml'
+        'static/src/xml/project_eko.xml'
     ],
 }

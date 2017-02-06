@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <!--
+        ProjectEkoMainWidget
+    -->
+    <t t-name="ProjectEkoMainWidget">
+
+<div class="w3-card-2 w3-slim w3-top w3-theme-d4" id="topnav">
+  <div style="overflow:auto;">
+    <ul class="w3-navbar w3-left">
+      <li><a href="javascript:void(0);" class="topnav-icons fa fa-bars w3-hide-large w3-left js_menu" title="Menu"></a></li>
+      <li><a href="javascript:void(0);" class="topnav-icons fa fa-home w3-left" title="Home"></a></li>
+      <li class="w3-right"><a href="/web/login?redirect=/project/eko" class="topnav-icons fa fa-sign-out w3-right" title="Quit"></a></li>
+      <li class="w3-right"><a href="javascript:void(0);" class="topnav-icons fa fa-search w3-right" title="Search"></a></li>
+      <li style="display:none;"><a id="topnavbtn_tutorials" href="javascript:void(0);" title="More">MORE <i class="fa fa-caret-down" style="display: inline;"></i><i class="fa fa-caret-up" style="display: none;"></i></a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-sidenav w3-collapse w3-slim w3-card-2 w3-light-grey" id="sidenav">
+    <div id="leftmenuinner">
+      <a href="javascript:void(0)" class="w3-closebtn w3-hide-large w3-large w3-right js_menu">×</a>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects <span class="w3-tag w3-red w3-round w3-right">8</span></a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+      <br/>
+      <h2 class="left">E K O</h2>
+      <a href="javascript:void(0);">Projects</a>
+      <a href="javascript:void(0);">Tasks</a>
+      <a href="javascript:void(0);">Task Works</a>
+    </div>
+</div>
+
+<div id="main">
+    <div id="overlay" class="w3-overlay w3-animate-opacity js_menu" style="cursor:pointer"></div>
+    <div class="w3-container w3-content">
+     <div class="input-group clockpicker pull-center" data-placement="left" data-align="top" data-autoclose="false">
+        <input type="text" class="form-control"/>
+        <span class="input-group-addon">
+            <span class="glyphicon glyphicon-time"></span>
+        </span>
+     </div>
+     <p class="w3-opacity"><b>Today</b></p> 
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+        <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <p class="w3-opacity"><b>Yesterday</b></p>
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+     
+     <div class="w3-panel w3-white w3-card-2 w3-display-container">
+       <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+       <p class="w3-text-blue"><b>email.zip</b></p>
+       <p>http://www.w3schools.com/lib/email.zip</p>
+       <p class="w3-text-blue">Show in folder</p>
+     </div>
+    </div>
+</div>
+
+    </t>
+
+</templates>
